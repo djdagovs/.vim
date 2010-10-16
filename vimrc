@@ -217,28 +217,7 @@ nmap <D-6> g^
 nmap <D-0> g0
 
 
-" mini buffer explorer
-" http://www.vim.org/scripts/script.php?script_id=159
-"
-" control + the vim direction keys [hjkl] can be made to move you between windows.
-"let g:miniBufExplMapWindowNavVim = 1
-" NOTE: this messes up with my visual line movement
 
-" control + arrow keys can be made to do the same thing
-let g:miniBufExplMapWindowNavArrows = 1
-
-" control + tab & shift + control + tab can be setup to switch through your open windows (like in MS Windows)
-let g:miniBufExplMapCTabSwitchBufs = 1
-
-" control + tab & shift + control + tab can alternatively be setup to cycle forwards and backwards through your modifiable buffers in the current window
-"let g:miniBufExplModSelTarget = 1 
-
-
-
-" super awesome ConqueTerm! 
-let g:ConqueTerm_Color = 1
-let g:ConqueTerm_TERM = 'vt100'
-let g:ConqueTerm_ReadUnfocused = 1
 
 
 " Instead of .gvimrc
