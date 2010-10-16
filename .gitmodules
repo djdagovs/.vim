@@ -7,9 +7,6 @@
 [submodule "bundle/autoclose"]
 	path = bundle/autoclose
 	url = http://github.com/Townk/vim-autoclose.git
-[submodule "bundle/rainbow"]
-	path = bundle/rainbow
-	url = http://github.com/chrismetcalf/vim-rainbow.git
 [submodule "bundle/repeat"]
 	path = bundle/repeat
 	url = http://github.com/tpope/vim-repeat.git
@@ -22,3 +19,30 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vibrantink"]
+	path = bundle/vibrantink
+	url = http://github.com/vim-scripts/vibrantink.git
+[submodule "bundle/blackboard"]
+	path = bundle/blackboard
+	url = http://github.com/vim-scripts/blackboard.vim.git
+[submodule "bundle/railscasts"]
+	path = bundle/railscasts
+	url = http://github.com/vim-scripts/railscasts.git
+[submodule "bundle/tutticolori"]
+	path = bundle/tutticolori
+	url = http://github.com/vim-scripts/TuttiColori-Colorscheme.git
+[submodule "bundle/vylight"]
+	path = bundle/vylight
+	url = http://github.com/vim-scripts/vylight.git
+[submodule "bundle/applescript"]
+	path = bundle/applescript
+	url = http://github.com/vim-scripts/applescript.vim.git
+[submodule "bundle/httplog"]
+	path = bundle/httplog
+	url = http://github.com/vim-scripts/httplog.git
+[submodule "bundle/nginx"]
+	path = bundle/nginx
+	url = http://github.com/vim-scripts/nginx.vim.git
+[submodule "bundle/go"]
+	path = bundle/go
+	url = http://github.com/vim-scripts/Go-Syntax.git

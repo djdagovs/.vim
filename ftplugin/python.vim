@@ -1,4 +1,0 @@
-
-color blackboard2
-
-
