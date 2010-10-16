@@ -46,3 +46,6 @@
 [submodule "bundle/go"]
 	path = bundle/go
 	url = http://github.com/vim-scripts/Go-Syntax.git
+[submodule "bundle/matchit"]
+	path = bundle/matchit
+	url = http://github.com/vim-scripts/matchit.zip.git
