@@ -98,11 +98,6 @@ set history=1000
 set undolevels=1000      " use many levels of undo
 
 
-" Enable extended % matching
-" The % key will switch between opening and closing brackets. By sourcing matchit.vim, it can also switch among e.g. if/elsif/else/end, between opening and closing XML tags, and more.
-runtime macros/matchit.vim
-" Note: runtime is the same as source except that the path is relative to the Vim installation directory. 
-
 
 
 " Set the terminal title
@@ -218,6 +213,10 @@ nmap <D-0> g0
 
 
 
+if exists("+autochdir")
+    " change working directory to the one containing the file opened
+    set autochdir
+endif
 
 
 " Instead of .gvimrc
@@ -228,7 +227,6 @@ if has("gui_running")
     "set go-=l               " no left scrollbar
     "set go-=b               " no bottom scrollbar
     "set go-=LR              " no scrollbar even if split
-    "set transparency=5
 
 
     " Make MacVim looks cool
@@ -244,8 +242,6 @@ if has("gui_running")
             "set transparency=5
         endif
 
-
-        set autochdir   " automatically change working directory to the one containing the file opened
         " enter Fullscreen mode with maxium lines and columns
         set fuoptions+=maxvert,maxhorz 
         command Fullscreen set fullscreen
