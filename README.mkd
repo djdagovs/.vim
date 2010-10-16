@@ -1,0 +1,16 @@
+To clone the .vim on another machine
+
+
+    git clone <git repo url>
+
+    ln -s ~/.vim/vimrc ~/.vimrc
+
+
+To add a bundle as a git submodule
+
+    git submodule add <git repo url> bundle/<bundle name>
+
+
+To update all bundles as submodules
+
+    git submodule update
