@@ -17,3 +17,14 @@ To add a bundle as a git submodule
 To update all bundles as submodules
 
     git submodule update
+
+
+TO remove a git submodule
+
+  edit .gitmodules to remove related entries
+  edit .git/config to remove related entreis
+
+  run
+    git rm --cached path/to/submodule
+
+  to remove the submodule entry in the index/commit
