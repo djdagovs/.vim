@@ -1,3 +1,8 @@
+" Pathogen bundle manager
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+
 " Shortcuts
 "  use w!! to 'sudo' save after you opened the file without 'sudo' first
 cmap w!! w !sudo tee % >/dev/null
