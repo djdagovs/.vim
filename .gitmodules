@@ -49,3 +49,6 @@
 [submodule "bundle/matchit"]
 	path = bundle/matchit
 	url = http://github.com/vim-scripts/matchit.zip.git
+[submodule "bundle/prolog"]
+	path = bundle/prolog
+	url = http://github.com/adimit/prolog.vim.git
