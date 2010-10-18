@@ -52,3 +52,6 @@
 [submodule "bundle/prolog"]
 	path = bundle/prolog
 	url = http://github.com/adimit/prolog.vim.git
+[submodule "bundle/python--Vasiliev"]
+	path = bundle/python--Vasiliev
+	url = http://github.com/vim-scripts/python.vim--Vasiliev.git
