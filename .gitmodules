@@ -31,9 +31,6 @@
 [submodule "bundle/vylight"]
 	path = bundle/vylight
 	url = http://github.com/vim-scripts/vylight.git
-[submodule "bundle/nginx"]
-	path = bundle/nginx
-	url = http://github.com/vim-scripts/nginx.vim.git
 [submodule "bundle/prolog"]
 	path = bundle/prolog
 	url = http://github.com/adimit/prolog.vim.git
@@ -55,3 +52,6 @@
 [submodule "bundle/matchit"]
 	path = bundle/matchit
 	url = git://github.com/vim-scripts/matchit.zip.git
+[submodule "bundle/nginx"]
+	path = bundle/nginx
+	url = git://github.com/vim-scripts/nginx.vim.git
