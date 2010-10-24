@@ -22,9 +22,6 @@
 [submodule "bundle/vibrantink"]
 	path = bundle/vibrantink
 	url = http://github.com/vim-scripts/vibrantink.git
-[submodule "bundle/blackboard"]
-	path = bundle/blackboard
-	url = http://github.com/vim-scripts/blackboard.vim.git
 [submodule "bundle/railscasts"]
 	path = bundle/railscasts
 	url = http://github.com/vim-scripts/railscasts.git
@@ -55,3 +52,6 @@
 [submodule "bundle/applescript"]
 	path = bundle/applescript
 	url = git://github.com/vim-scripts/applescript.vim.git
+[submodule "bundle/blackboard"]
+	path = bundle/blackboard
+	url = git://github.com/vim-scripts/blackboard.vim.git
