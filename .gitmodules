@@ -1,30 +1,30 @@
 [submodule "bundle/pathogen"]
 	path = bundle/pathogen
-	url = http://github.com/tpope/vim-pathogen.git
+	url = git://github.com/tpope/vim-pathogen.git
 [submodule "bundle/autoclose"]
 	path = bundle/autoclose
-	url = http://github.com/Townk/vim-autoclose.git
+	url = git://github.com/Townk/vim-autoclose.git
 [submodule "bundle/repeat"]
 	path = bundle/repeat
-	url = http://github.com/tpope/vim-repeat.git
+	url = git://github.com/tpope/vim-repeat.git
 [submodule "bundle/vividchalk"]
 	path = bundle/vividchalk
-	url = http://github.com/tpope/vim-vividchalk.git
+	url = git://github.com/tpope/vim-vividchalk.git
 [submodule "bundle/haml"]
 	path = bundle/haml
-	url = http://github.com/tpope/vim-haml.git
+	url = git://github.com/tpope/vim-haml.git
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
-	url = http://github.com/tpope/vim-fugitive.git
+	url = git://github.com/tpope/vim-fugitive.git
 [submodule "bundle/vibrantink"]
 	path = bundle/vibrantink
-	url = http://github.com/vim-scripts/vibrantink.git
+	url = git://github.com/vim-scripts/vibrantink.git
 [submodule "bundle/vylight"]
 	path = bundle/vylight
-	url = http://github.com/vim-scripts/vylight.git
+	url = git://github.com/vim-scripts/vylight.git
 [submodule "bundle/prolog"]
 	path = bundle/prolog
-	url = http://github.com/adimit/prolog.vim.git
+	url = git://github.com/adimit/prolog.vim.git
 [submodule "bundle/applescript"]
 	path = bundle/applescript
 	url = git://github.com/vim-scripts/applescript.vim.git
