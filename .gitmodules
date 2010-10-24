@@ -34,9 +34,6 @@
 [submodule "bundle/vylight"]
 	path = bundle/vylight
 	url = http://github.com/vim-scripts/vylight.git
-[submodule "bundle/applescript"]
-	path = bundle/applescript
-	url = http://github.com/vim-scripts/applescript.vim.git
 [submodule "bundle/httplog"]
 	path = bundle/httplog
 	url = http://github.com/vim-scripts/httplog.git
@@ -55,3 +52,6 @@
 [submodule "bundle/python--Vasiliev"]
 	path = bundle/python--Vasiliev
 	url = http://github.com/vim-scripts/python.vim--Vasiliev.git
+[submodule "bundle/applescript"]
+	path = bundle/applescript
+	url = git://github.com/vim-scripts/applescript.vim.git
