@@ -22,9 +22,6 @@
 [submodule "bundle/vibrantink"]
 	path = bundle/vibrantink
 	url = http://github.com/vim-scripts/vibrantink.git
-[submodule "bundle/railscasts"]
-	path = bundle/railscasts
-	url = http://github.com/vim-scripts/railscasts.git
 [submodule "bundle/tutticolori"]
 	path = bundle/tutticolori
 	url = http://github.com/vim-scripts/TuttiColori-Colorscheme.git
@@ -55,3 +52,6 @@
 [submodule "bundle/python--Vasiliev"]
 	path = bundle/python--Vasiliev
 	url = git://github.com/vim-scripts/python.vim--Vasiliev.git
+[submodule "bundle/railscasts"]
+	path = bundle/railscasts
+	url = git://github.com/vim-scripts/railscasts.git
