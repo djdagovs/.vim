@@ -19,9 +19,6 @@
 [submodule "bundle/vibrantink"]
 	path = bundle/vibrantink
 	url = http://github.com/vim-scripts/vibrantink.git
-[submodule "bundle/tutticolori"]
-	path = bundle/tutticolori
-	url = http://github.com/vim-scripts/TuttiColori-Colorscheme.git
 [submodule "bundle/vylight"]
 	path = bundle/vylight
 	url = http://github.com/vim-scripts/vylight.git
@@ -55,3 +52,6 @@
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = git://github.com/vim-scripts/surround.vim.git
+[submodule "bundle/tutticolori"]
+	path = bundle/tutticolori
+	url = git://github.com/vim-scripts/TuttiColori-Colorscheme.git
