@@ -34,9 +34,6 @@
 [submodule "bundle/prolog"]
 	path = bundle/prolog
 	url = http://github.com/adimit/prolog.vim.git
-[submodule "bundle/python--Vasiliev"]
-	path = bundle/python--Vasiliev
-	url = http://github.com/vim-scripts/python.vim--Vasiliev.git
 [submodule "bundle/applescript"]
 	path = bundle/applescript
 	url = git://github.com/vim-scripts/applescript.vim.git
@@ -55,3 +52,6 @@
 [submodule "bundle/nginx"]
 	path = bundle/nginx
 	url = git://github.com/vim-scripts/nginx.vim.git
+[submodule "bundle/python--Vasiliev"]
+	path = bundle/python--Vasiliev
+	url = git://github.com/vim-scripts/python.vim--Vasiliev.git
