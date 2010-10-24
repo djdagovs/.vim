@@ -37,9 +37,6 @@
 [submodule "bundle/nginx"]
 	path = bundle/nginx
 	url = http://github.com/vim-scripts/nginx.vim.git
-[submodule "bundle/go"]
-	path = bundle/go
-	url = http://github.com/vim-scripts/Go-Syntax.git
 [submodule "bundle/matchit"]
 	path = bundle/matchit
 	url = http://github.com/vim-scripts/matchit.zip.git
@@ -55,3 +52,6 @@
 [submodule "bundle/blackboard"]
 	path = bundle/blackboard
 	url = git://github.com/vim-scripts/blackboard.vim.git
+[submodule "bundle/go"]
+	path = bundle/go
+	url = git://github.com/vim-scripts/go.vim.git
