@@ -43,9 +43,6 @@
 [submodule "bundle/nginx"]
 	path = bundle/nginx
 	url = git://github.com/vim-scripts/nginx.vim.git
-[submodule "bundle/python--Vasiliev"]
-	path = bundle/python--Vasiliev
-	url = git://github.com/vim-scripts/python.vim--Vasiliev.git
 [submodule "bundle/railscasts"]
 	path = bundle/railscasts
 	url = git://github.com/vim-scripts/railscasts.git
