@@ -57,4 +57,4 @@
 	url = git://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/vim-cute-python"]
 	path = bundle/vim-cute-python
-	url = https://github.com/ehamberg/vim-cute-python.git
+	url = git@github.com:riobard/vim-cute-python.git
