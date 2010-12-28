@@ -58,3 +58,6 @@
 [submodule "bundle/vim-cute-python"]
 	path = bundle/vim-cute-python
 	url = git@github.com:riobard/vim-cute-python.git
+[submodule "bundle/cocoa"]
+	path = bundle/cocoa
+	url = git://github.com/vim-scripts/cocoa.vim.git
