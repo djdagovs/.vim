@@ -213,6 +213,27 @@ nmap <D-0> g0
 
 
 
+" Tabularize plugin: align equal signs and friends
+"if exists(":Tabularize") " for some reason this test fails at startup
+    nmap <Leader>a= :Tabularize /=<CR>
+    vmap <Leader>a= :Tabularize /=<CR>
+
+    nmap <Leader>a: :Tabularize /:<CR>
+    vmap <Leader>a: :Tabularize /:<CR>
+
+    nmap <Leader>a/ :Tabularize /\/\/<CR>
+    vmap <Leader>a/ :Tabularize /\/\/<CR>
+
+    nmap <Leader>a# :Tabularize /#<CR>
+    vmap <Leader>a# :Tabularize /#<CR>
+
+    "Alternative style: spaces after colons
+    "nmap <Leader>a: :Tabularize /:\zs<CR>
+    "vmap <Leader>a: :Tabularize /:\zs<CR>
+"endif
+
+
+
 if exists("+autochdir")
     " change working directory to the one containing the file opened
     set autochdir
