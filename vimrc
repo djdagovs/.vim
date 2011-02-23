@@ -2,6 +2,9 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+"let g:AutoCloseProtectedRegions = []
+"let g:AutoCloseProtectedRegions = ["Comment", "String", "Character"]
+
 
 " Shortcuts
 "  use w!! to 'sudo' save after you opened the file without 'sudo' first
