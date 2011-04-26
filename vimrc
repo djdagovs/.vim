@@ -194,7 +194,10 @@ imap <C-S-tab> <Esc>:tabprev<CR>i
 
 
 " show softwarpped continuing line
-set showbreak=…
+"set showbreak=…    " UTF8 causing problem in Linux
+"set showbreak=...
+"set showbreak=>\ "
+set showbreak=-
 
 " moving cursor by screenline
 vmap <D-j> gj
