@@ -219,6 +219,14 @@ nmap <D-0> g0
 
 
 
+" Emacs-like keybinding for command line mode
+cnoremap <C-A> <Home>
+cnoremap <C-B> <Left>
+cnoremap <C-D> <Del>
+cnoremap <C-E> <End>
+cnoremap <C-F> <Right>
+
+
 " Tabularize plugin: align equal signs and friends
 "if exists(":Tabularize") " for some reason this test fails at startup
     nmap <Leader>a= :Tabularize /=<CR>
