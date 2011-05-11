@@ -14,9 +14,14 @@ To add a bundle as a git submodule
     git submodule add <git repo url> bundle/<bundle name>
 
 
-To update all bundles as submodules
+To update submodules
 
     git submodule update
+
+
+To update each bundule in submodules
+
+    git submodule foreach git pull
 
 
 To remove a git submodule
