@@ -60,7 +60,9 @@ filetype plugin on
 filetype indent on
 
 syntax enable
-colo vividchalk
+colo oceandeep
+set t_Co=256
+"colo vividchalk
 "colo blackboard2
 "colo tutticolori
 
@@ -273,7 +275,7 @@ if has("gui_running")
         " transparent background
         "set bg=dark
         if &background == "dark"
-            hi normal guibg=black
+            "hi normal guibg=black
             "set transparency=5
         endif
 
