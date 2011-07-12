@@ -60,9 +60,9 @@ filetype plugin on
 filetype indent on
 
 syntax enable
-colo oceandeep
-set t_Co=256
-"colo vividchalk
+"colo oceandeep
+"set t_Co=256
+colo vividchalk
 "colo blackboard2
 "colo tutticolori
 
@@ -260,10 +260,10 @@ endif
 if has("gui_running")
     " General GUI settings
     set guioptions-=T       " no toolbar
-    "set go-=r               " no right scrollbar
-    "set go-=l               " no left scrollbar
-    "set go-=b               " no bottom scrollbar
-    "set go-=LR              " no scrollbar even if split
+    set go-=r               " no right scrollbar
+    set go-=l               " no left scrollbar
+    set go-=b               " no bottom scrollbar
+    set go-=LR              " no scrollbar even if split
 
 
     " Make MacVim looks cool
