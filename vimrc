@@ -32,7 +32,7 @@ set noerrorbells         " don't beep
 
 " Hightlight cursor position
 set cursorline
-set cursorcolumn
+"set cursorcolumn
 
 
 " Always show a customized status line
