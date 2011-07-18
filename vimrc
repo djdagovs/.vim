@@ -30,6 +30,9 @@ set title                " change the terminal's titl
 set visualbell           " don't beep
 set noerrorbells         " don't beep
 
+" Hightlight cursor position
+set cursorline
+"set cursorcolumn
 
 
 " Always show a customized status line
@@ -159,6 +162,14 @@ set shortmess=atI
 
 set incsearch   " incremental search (search as you type)
 set hlsearch    " highlight search result
+
+
+
+
+" OS X default ctags version is too old
+let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
+
+
 
 " move by screen line
 " normal node
