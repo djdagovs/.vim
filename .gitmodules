@@ -64,12 +64,9 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
-<<<<<<< HEAD
 [submodule "bundle/scala"]
 	path = bundle/scala
 	url = git@github.com:riobard/scala.vim.git
-=======
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = git://github.com/vim-scripts/taglist.vim.git
->>>>>>> c84a237d41cd821fc82323e646a0f7ac23140f5b
