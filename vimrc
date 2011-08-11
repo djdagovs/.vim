@@ -30,9 +30,6 @@ set title                " change the terminal's titl
 set visualbell           " don't beep
 set noerrorbells         " don't beep
 
-" Hightlight cursor position
-set cursorline
-"set cursorcolumn
 
 
 " Always show a customized status line
@@ -276,6 +273,9 @@ if has("gui_running")
     set go-=b               " no bottom scrollbar
     set go-=LR              " no scrollbar even if split
 
+    " Hightlight cursor position
+    set cursorline
+    "set cursorcolumn
 
     " Make MacVim looks cool
     if has("gui_macvim")
