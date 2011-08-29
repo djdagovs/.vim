@@ -274,7 +274,8 @@ if has("gui_running")
     set go-=r               " no right scrollbar
     set go-=l               " no left scrollbar
     set go-=b               " no bottom scrollbar
-    set go-=LR              " no scrollbar even if split
+    set go-=L              " no scrollbar even if split
+    set go-=R              " no scrollbar even if split
 
 
     " Make MacVim looks cool
