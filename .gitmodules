@@ -70,6 +70,9 @@
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = git://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/buftabs"]
+	path = bundle/buftabs
+	url = git://github.com/vim-scripts/buftabs.git
 [submodule "bundle/markdown"]
 	path = bundle/markdown
 	url = git://github.com/plasticboy/vim-markdown.git

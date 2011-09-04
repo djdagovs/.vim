@@ -271,8 +271,8 @@ if has("gui_running")
     set go-=r               " no right scrollbar
     set go-=l               " no left scrollbar
     set go-=b               " no bottom scrollbar
-    set go-=L               " no scrollbar on the left
-    set go-=R               " no scrollbar on the right
+    set go-=L              " no scrollbar even if split
+    set go-=R              " no scrollbar even if split
 
     " Hightlight cursor position
     set cursorline
