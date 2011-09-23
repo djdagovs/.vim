@@ -19,6 +19,9 @@ vmap Q gq
 nmap Q gqap
 
 
+" Use OS X clipboard
+set clipboard=unnamed
+
 " speed up Vim command typing by using ; (no shift key) as : (=shift+;)
 nnoremap ; :
 
