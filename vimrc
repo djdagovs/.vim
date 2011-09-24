@@ -63,9 +63,9 @@ filetype plugin on
 filetype indent on
 
 syntax enable
-"colo oceandeep
-"set t_Co=256
+set t_Co=256    " Use 256 colors to display correctly in console
 colo vividchalk
+"colo oceandeep
 "colo blackboard2
 "colo tutticolori
 
