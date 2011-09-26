@@ -35,6 +35,11 @@ set noerrorbells         " don't beep
 
 
 
+" Read modelines
+set modeline
+set modelines=5
+
+
 " Always show a customized status line
 "set laststatus=2 statusline=%F%m%r%h%w%y%=[%l,%c][%P/%L]
 set laststatus=2 statusline=%<%F\ %y%h%m%r%=%-14.(%l,%c%V%)\ %P/%L
