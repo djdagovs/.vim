@@ -40,9 +40,9 @@ set modeline
 set modelines=5
 
 
-" Always show a customized status line
 "set laststatus=2 statusline=%F%m%r%h%w%y%=[%l,%c][%P/%L]
-set laststatus=2 statusline=%<%F\ %y%h%m%r%=%-14.(%l,%c%V%)\ %P/%L
+set laststatus=2    " always show the status line
+set statusline=%{fugitive#statusline()}\ %<%F\ %y%h%m%r%=%-14.(%l,%c%V%)\ [%P/%L]
 set titlestring=%<%F
 
 set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
