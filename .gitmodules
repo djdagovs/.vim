@@ -76,3 +76,6 @@
 [submodule "bundle/tabbar"]
 	path = bundle/tabbar
 	url = git://github.com/vim-scripts/TabBar.git
+[submodule "bundle/drawit"]
+	path = bundle/drawit
+	url = git://github.com/vim-scripts/DrawIt.git
