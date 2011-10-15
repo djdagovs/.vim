@@ -91,10 +91,8 @@ nnoremap ` '
 
 
 " Map leader to ,
-
 " The leader character is your own personal modifier key, as g is Vim’s modifier key (when compared to vi). The default leader is \, but this is not located standardly on all keyboards and requires a pinky stretch in any case.
 let mapleader = ","
-
 " <SPACE> is also a good choice. Note: you can of course have several “personal modifier keys” simply by mapping a sequence, but the leader key is handled more formally. 
 
 
