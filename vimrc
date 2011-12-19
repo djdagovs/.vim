@@ -69,10 +69,14 @@ filetype indent on
 
 syntax enable
 set t_Co=256    " Use 256 colors to display correctly in console
-colo vividchalk
+" light colorschemes
+colo tutticolori
+"colo donbass
+
+"" dark colorschemes
+"colo vividchalk
 "colo oceandeep
 "colo blackboard2
-"colo tutticolori
 
 set fo+=m   " break lines at multibyte chars (for asian chars)
 set fo+=M   " do not insert a space before/after multibyte char when joining
