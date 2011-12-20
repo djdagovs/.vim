@@ -70,7 +70,8 @@ filetype indent on
 syntax enable
 set t_Co=256    " Use 256 colors to display correctly in console
 " light colorschemes
-colo tutticolori
+colo tangolight
+"colo tutticolori
 "colo donbass
 
 "" dark colorschemes
@@ -291,8 +292,8 @@ if has("gui_running")
     " Make MacVim looks cool
     if has("gui_macvim")
         "set guifont=Monaco:h12
-        set guifont=Menlo:h11
         "set guifont=Espresso\ Mono\ Regular:h13
+        set guifont=Menlo:h12
 
         " transparent background
         "set bg=dark
