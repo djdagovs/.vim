@@ -69,8 +69,9 @@ filetype indent on
 
 syntax enable
 set t_Co=256    " Use 256 colors to display correctly in console
+colo solarized
 " light colorschemes
-colo tangolight
+"colo tangolight
 "colo tutticolori
 "colo donbass
 
