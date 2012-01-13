@@ -1,4 +1,6 @@
 .*
 
+bundle/
+
 !.gitignore
 !.gitmodules

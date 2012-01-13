@@ -1,6 +1,30 @@
-" Pathogen bundle manager
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+set nocompatible               " be iMproved
+filetype off                   " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+
+" GitHub repos
+Bundle 'gmarik/vundle'
+Bundle 'Townk/vim-autoclose'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-fugitive'
+Bundle 'riobard/vim-cute-python'
+
+" Vim-scripts repos
+Bundle 'surround.vim'
+Bundle 'matchit.zip'
+Bundle 'nginx.vim'
+Bundle 'cocoa.vim'
+Bundle 'Solarized'
+
+
+
+filetype plugin indent on   " required by Vundle
+
 
 "let g:AutoCloseProtectedRegions = []
 "let g:AutoCloseProtectedRegions = ["Comment", "String", "Character"]
@@ -62,10 +86,6 @@ set fileformats=unix,dos,mac
 
 set showmatch     " set show matching parenthesis
 
-
-filetype on
-filetype plugin on
-filetype indent on
 
 syntax enable
 set t_Co=256    " Use 256 colors to display correctly in console
