@@ -13,6 +13,14 @@ Bundle 'Townk/vim-autoclose'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-fugitive'
 Bundle 'riobard/vim-cute-python'
+Bundle 'tpope/vim-vividchalk'
+Bundle 'tpope/vim-haml'
+Bundle 'adimit/prolog.vim'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'godlygeek/tabular'
+Bundle 'scrooloose/nerdtree'
+Bundle 'riobard/scala.vim'
+Bundle 'plasticboy/vim-markdown'
 
 " Vim-scripts repos
 Bundle 'surround.vim'
@@ -20,6 +28,10 @@ Bundle 'matchit.zip'
 Bundle 'nginx.vim'
 Bundle 'cocoa.vim'
 Bundle 'Solarized'
+Bundle 'applescript.vim'
+Bundle 'httplog'
+Bundle 'taglist.vim'
+Bundle 'DrawIt'
 
 
 
