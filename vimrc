@@ -36,6 +36,9 @@ Bundle 'DrawIt'
 
 
 
+
+set rtp+=$GOROOT/misc/vim
+
 filetype plugin indent on   " required by Vundle
 
 
@@ -102,6 +105,7 @@ set showmatch     " set show matching parenthesis
 
 syntax enable
 set t_Co=256    " Use 256 colors to display correctly in console
+set bg=dark
 colo solarized
 " light colorschemes
 "colo tangolight
