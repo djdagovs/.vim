@@ -34,6 +34,8 @@ Bundle 'httplog'
 Bundle 'taglist.vim'
 Bundle 'DrawIt'
 
+" 3rd-party Git Repos
+"Bundle 'git://git.wincent.com/command-t.git'
 
 
 
