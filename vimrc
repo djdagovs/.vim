@@ -34,11 +34,9 @@ Bundle 'httplog'
 Bundle 'taglist.vim'
 Bundle 'DrawIt'
 
-" 3rd-party Git Repos
-"Bundle 'git://git.wincent.com/command-t.git'
 
 
-
+" Go-lang support
 set rtp+=$GOROOT/misc/vim
 
 filetype plugin indent on   " required by Vundle
@@ -201,7 +199,6 @@ set ruler
 
 
 
-
 " Stifle many interruptive prompts
 " The “Press ENTER or type command to continue” prompt is jarring and usually unnecessary. You can shorten command-line text and other info tokens with, e.g.:
 set shortmess=atI
@@ -213,29 +210,31 @@ set hlsearch    " highlight search result
 
 
 
-
 " OS X default ctags version is too old
 let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
 
 
-
-" move by screen line
-" normal node
+" Move by screen line
+" Normal node
 map <Up>    gk
 map <Down>  gj
-"map <C-k>   <Up>
-"map <C-j>   <Down>
-
+" Insert mode
 imap <Up>   <C-o>gk
 imap <Down> <C-o>gj
-"imap <C-k>  <Up>
-"imap <C-j>  <Down>
 
-" swtich between diferent split windows
+" Switch between diferent split windows
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-h> <C-w>h
 map <C-l> <C-w>l
+
+" Resize window
+if bufwinnr(1)
+    map - <C-W>+
+    map _ <C-W>-
+    map + <C-W><
+    map = <C-W>>
+endif
 
 " moving windows
 "map <S-j> <C-w>J
