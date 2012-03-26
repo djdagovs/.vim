@@ -22,6 +22,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'riobard/scala.vim'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'kevinw/pyflakes-vim'
+Bundle 'jpalardy/vim-slime'
 
 " Vim-scripts repos
 Bundle 'surround.vim'
@@ -281,6 +282,11 @@ cnoremap <C-B> <Left>
 cnoremap <C-D> <Del>
 cnoremap <C-E> <End>
 cnoremap <C-F> <Right>
+
+
+
+" Vim-slime
+let g:slime_target = "tmux"
 
 
 " Tabularize plugin: align equal signs and friends
