@@ -246,10 +246,11 @@ nmap <D-6> g^
 nmap <D-0> g0
 
 " Switch between diferent split windows
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-h> <C-w>h
-map <C-l> <C-w>l
+" Ctrl- prefix is overly used by other plugins.
+"map <C-j> <C-w>j
+"map <C-k> <C-w>k
+"map <C-h> <C-w>h
+"map <C-l> <C-w>l
 
 " Option key as prefix. NOTE: iTerm 2 sends Option key as +Esc. Meta doesn't
 " work properly. 
@@ -257,6 +258,11 @@ map <Esc>j <C-w>j
 map <Esc>k <C-w>k
 map <Esc>h <C-w>h
 map <Esc>l <C-w>l
+imap <Esc>j <Esc><C-w>j
+imap <Esc>k <Esc><C-w>k
+imap <Esc>h <Esc><C-w>h
+imap <Esc>l <Esc><C-w>l
+
 
 " Resize window
 if bufwinnr(1)
