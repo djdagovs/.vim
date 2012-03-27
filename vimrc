@@ -216,6 +216,8 @@ set hlsearch    " highlight search result
 " OS X default ctags version is too old
 let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
 
+map <leader>t :TlistToggle<CR>
+
 
 " Move by screen line
 " Normal node
