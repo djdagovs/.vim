@@ -221,6 +221,10 @@ let Tlist_Use_Split_Window = 1
 map <leader>t :NERDTree\|TlistToggle<CR>
 com TT NERDTree | TlistToggle
 
+" Trigger tag auto hightlight every second. Note this is done by writing swap
+" file to trigger the CursorHold event. Low values will incur more disk I/O.
+set updatetime=1000 
+
 autocmd FileType nerdtree setlocal norelativenumber
 autocmd FileType taglist  setlocal norelativenumber
 
