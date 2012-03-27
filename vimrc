@@ -198,6 +198,8 @@ set ruler
 " like: 529, 35 68%, representing line 529, column 35, about 68% of the way to
 " the end. 
 
+set relativenumber
+
 
 
 " Stifle many interruptive prompts: The “Press ENTER or type command to
@@ -215,8 +217,12 @@ set hlsearch    " highlight search result
 
 " OS X default ctags version is too old
 let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
+let Tlist_Use_Split_Window = 1
+map <leader>t :NERDTree\|TlistToggle<CR>
+com TT NERDTree | TlistToggle
 
-map <leader>t :TlistToggle<CR>
+autocmd FileType nerdtree setlocal norelativenumber
+autocmd FileType taglist  setlocal norelativenumber
 
 
 " Move by screen line
@@ -239,12 +245,18 @@ nmap <D-4> g$
 nmap <D-6> g^
 nmap <D-0> g0
 
-
 " Switch between diferent split windows
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-h> <C-w>h
 map <C-l> <C-w>l
+
+" Option key as prefix. NOTE: iTerm 2 sends Option key as +Esc. Meta doesn't
+" work properly. 
+map <Esc>j <C-w>j
+map <Esc>k <C-w>k
+map <Esc>h <C-w>h
+map <Esc>l <C-w>l
 
 " Resize window
 if bufwinnr(1)
