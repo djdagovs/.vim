@@ -76,6 +76,8 @@ set visualbell noerrorbells
 " Read modelines
 set modeline modelines=5
 
+" Hightlight cursor position
+set cursorline  "cursorcolumn
 
 "set laststatus=2 statusline=%F%m%r%h%w%y%=[%l,%c][%P/%L]
 set laststatus=2    " always show the status line
@@ -262,10 +264,6 @@ map <Esc>j <C-w>j
 map <Esc>k <C-w>k
 map <Esc>h <C-w>h
 map <Esc>l <C-w>l
-imap <Esc>j <Esc><C-w>j
-imap <Esc>k <Esc><C-w>k
-imap <Esc>h <Esc><C-w>h
-imap <Esc>l <Esc><C-w>l
 
 
 " Resize window
@@ -349,8 +347,6 @@ if has("gui_running")
     set go-=L               " no scrollbar even if split
     set go-=R               " no scrollbar even if split
 
-    " Hightlight cursor position
-    set cursorline  "cursorcolumn
 
     " Make MacVim looks cool
     if has("gui_macvim")
