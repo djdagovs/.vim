@@ -1,9 +1,0 @@
-set columns=80
-"set linespace=8
-set linebreak   " break lines at word boundaries instead of last char
-
-" move by screen line
-map j gj    
-map k gk
-map ^ g^
-map $ g$
