@@ -353,6 +353,14 @@ if has("gui_running")
         "set guifont=Monaco:h12
         set guifont=Menlo:h14
 
+        " Enable meta- kind binding for GUI
+        set macmeta
+
+        map <M-j> <C-w>j
+        map <M-k> <C-w>k
+        map <M-h> <C-w>h
+        map <M-l> <C-w>l
+
         " transparent background
         "set bg=dark
         if &background == "dark"
