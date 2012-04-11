@@ -351,7 +351,7 @@ if has("gui_running")
     " Make MacVim looks cool
     if has("gui_macvim")
         "set guifont=Monaco:h12
-        set guifont=Menlo:h12
+        set guifont=Menlo:h14
 
         " transparent background
         "set bg=dark
