@@ -21,7 +21,7 @@ Bundle 'godlygeek/tabular'
 Bundle 'scrooloose/nerdtree'
 Bundle 'riobard/scala.vim'
 Bundle 'plasticboy/vim-markdown'
-Bundle 'kevinw/pyflakes-vim'
+"Bundle 'kevinw/pyflakes-vim'
 Bundle 'jpalardy/vim-slime'
 
 " Vim-scripts repos
