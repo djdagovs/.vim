@@ -200,7 +200,9 @@ set ruler
 " like: 529, 35 68%, representing line 529, column 35, about 68% of the way to
 " the end. 
 
-set relativenumber
+if exists("+relativenumber")
+    set relativenumber
+endif
 
 
 
