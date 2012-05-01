@@ -23,6 +23,7 @@ Bundle 'riobard/scala.vim'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'scrooloose/syntastic'
 Bundle 'jpalardy/vim-slime'
+Bundle 'kien/ctrlp.vim'
 
 " Vim-scripts repos
 Bundle 'surround.vim'
