@@ -1,3 +1,4 @@
+set shell=/bin/bash " https://github.com/gmarik/vundle/issues/175
 set nocompatible               " be iMproved
 filetype off                   " required!
 
@@ -117,9 +118,10 @@ set backspace=indent,eol,start
  " allow backspacing over everything in insert mode
 
 " Turn on hidden.  Don’t worry about the name. What this does is allow Vim to
-" manage multiple buffers effectively.  * The current buffer can be put to the
-" background without writing to disk; * When a background buffer becomes
-" current again, marks and undo-history are remembered.
+" manage multiple buffers effectively.  
+" * The current buffer can be put to the background without writing to disk; 
+" * When a background buffer becomes current again, marks and undo-history 
+" are remembered.
 set hidden
 
 " Remap ` to '.  These are very similar keys. Typing 'a will jump to the line
@@ -284,13 +286,10 @@ endif
 "map <S-l> <C-w>L
 
 
-" Switch tabs
-" Normal mode
-map <C-tab>   :tabnext<CR>
-map <C-S-tab> :tabprev<CR>
-" Insert mode
-imap <C-tab>   <Esc>:tabnext<CR>i
-imap <C-S-tab> <Esc>:tabprev<CR>i
+" Switch tabs in Normal mode
+" Note: Terminal cannot recongnize <C-Tab>, just <Tab>
+map <Tab>   :tabnext<CR>
+map <S-Tab> :tabprev<CR>
 
 
 " show softwarpped continuing line
