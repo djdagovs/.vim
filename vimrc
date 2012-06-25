@@ -1,6 +1,6 @@
-set shell=/bin/bash " https://github.com/gmarik/vundle/issues/175
-set nocompatible               " be iMproved
-filetype off                   " required!
+set shell=/bin/bash\ -li " https://github.com/gmarik/vundle/issues/175
+set nocompatible
+filetype off        " required to use Vundle
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
