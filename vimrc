@@ -28,6 +28,10 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'mileszs/ack.vim'
 
+Bundle 'nanotech/jellybeans.vim'
+Bundle 'tomasr/molokai'
+Bundle 'sickill/vim-monokai'
+
 " Vim-scripts repos
 Bundle 'surround.vim'
 Bundle 'matchit.zip'
@@ -100,7 +104,10 @@ set showmatch     " set show matching parenthesis
 syntax enable
 set t_Co=256    " Use 256 colors to display correctly in console
 set background=dark
-colo solarized
+"colo solarized
+"colo Monokai
+"colo vivichalk
+colo molokai
 
 " light colorschemes
 "colo tangolight
