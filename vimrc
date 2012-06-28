@@ -25,6 +25,7 @@ Bundle 'plasticboy/vim-markdown'
 Bundle 'scrooloose/syntastic'
 Bundle 'jpalardy/vim-slime'
 Bundle 'kien/ctrlp.vim'
+Bundle 'Lokaltog/vim-powerline'
 
 " Vim-scripts repos
 Bundle 'surround.vim'
