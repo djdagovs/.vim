@@ -108,17 +108,17 @@ set background=dark
 
 
 "" light colorschemes
-"colo tangolight
-"colo tutticolori
-"colo donbass
+"silent! colo tangolight
+"silent! colo tutticolori
+"silent! colo donbass
 
 "" dark colorschemes
-"colo vividchalk
-"colo oceandeep
-"colo blackboard2
-"colo solarized
-"colo Monokai
-"colo vivichalk
+"silent! colo vividchalk
+"silent! colo oceandeep
+"silent! colo blackboard2
+"silent! colo solarized
+"silent! colo Monokai
+"silent! colo vivichalk
 silent! colo molokai
 
 
@@ -239,8 +239,6 @@ com TT NERDTree | TagbarToggle
 " Trigger tag auto hightlight every second. Note this is done by writing swap
 " file to trigger the CursorHold event. Low values will incur more disk I/O.
 set updatetime=1000 
-
-autocmd FileType nerdtree setlocal norelativenumber
 
 
 " Move by screen line
