@@ -28,6 +28,8 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'mileszs/ack.vim'
 
+Bundle 'majutsushi/tagbar'
+
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'tomasr/molokai'
 Bundle 'sickill/vim-monokai'
@@ -40,7 +42,6 @@ Bundle 'cocoa.vim'
 Bundle 'Solarized'
 Bundle 'applescript.vim'
 Bundle 'httplog'
-Bundle 'taglist.vim'
 Bundle 'DrawIt'
 
 
@@ -104,12 +105,9 @@ set showmatch     " set show matching parenthesis
 syntax enable
 set t_Co=256    " Use 256 colors to display correctly in console
 set background=dark
-"colo solarized
-"colo Monokai
-"colo vivichalk
-colo molokai
 
-" light colorschemes
+
+"" light colorschemes
 "colo tangolight
 "colo tutticolori
 "colo donbass
@@ -118,6 +116,11 @@ colo molokai
 "colo vividchalk
 "colo oceandeep
 "colo blackboard2
+"colo solarized
+"colo Monokai
+"colo vivichalk
+silent! colo molokai
+
 
 set fo+=m   " break lines at multibyte chars (for asian chars)
 set fo+=M   " do not insert a space before/after multibyte char when joining
@@ -230,19 +233,14 @@ set incsearch   " incremental search (search as you type)
 set hlsearch    " highlight search result
 
 
-
-" OS X default ctags version is too old
-let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
-let Tlist_Use_Split_Window = 1
-map <leader>t :NERDTree\|TlistToggle<CR>
-com TT NERDTree | TlistToggle
+map <leader>t :NERDTree\|TagbarToggle<CR>
+com TT NERDTree | TagbarToggle
 
 " Trigger tag auto hightlight every second. Note this is done by writing swap
 " file to trigger the CursorHold event. Low values will incur more disk I/O.
 set updatetime=1000 
 
 autocmd FileType nerdtree setlocal norelativenumber
-autocmd FileType taglist  setlocal norelativenumber
 
 
 " Move by screen line
