@@ -19,16 +19,22 @@ Bundle 'tpope/vim-haml'
 Bundle 'adimit/prolog.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'godlygeek/tabular'
+
+Bundle 'majutsushi/tagbar'
 Bundle 'scrooloose/nerdtree'
+map <leader>t :NERDTree\|TagbarToggle<CR>
+com TT NERDTree | TagbarToggle
+
 Bundle 'riobard/scala.vim'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'scrooloose/syntastic'
 Bundle 'jpalardy/vim-slime'
 Bundle 'kien/ctrlp.vim'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'mileszs/ack.vim'
 
-Bundle 'majutsushi/tagbar'
+Bundle 'Lokaltog/vim-powerline'
+let g:Powerline_symbols = 'unicode'
+
+Bundle 'mileszs/ack.vim'
 
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'tomasr/molokai'
@@ -233,8 +239,6 @@ set incsearch   " incremental search (search as you type)
 set hlsearch    " highlight search result
 
 
-map <leader>t :NERDTree\|TagbarToggle<CR>
-com TT NERDTree | TagbarToggle
 
 " Trigger tag auto hightlight every second. Note this is done by writing swap
 " file to trigger the CursorHold event. Low values will incur more disk I/O.
