@@ -36,6 +36,7 @@ let g:Powerline_symbols = 'unicode'
 
 Bundle 'mileszs/ack.vim'
 
+Bundle 'altercation/vim-colors-solarized'
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'tomasr/molokai'
 Bundle 'sickill/vim-monokai'
@@ -45,7 +46,6 @@ Bundle 'surround.vim'
 Bundle 'matchit.zip'
 Bundle 'nginx.vim'
 Bundle 'cocoa.vim'
-Bundle 'Solarized'
 Bundle 'applescript.vim'
 Bundle 'httplog'
 Bundle 'DrawIt'
@@ -112,7 +112,6 @@ syntax enable
 set t_Co=256    " Use 256 colors to display correctly in console
 set background=dark
 
-
 "" light colorschemes
 "silent! colo tangolight
 "silent! colo tutticolori
@@ -122,10 +121,9 @@ set background=dark
 "silent! colo vividchalk
 "silent! colo oceandeep
 "silent! colo blackboard2
-"silent! colo solarized
+silent! colo solarized
 "silent! colo Monokai
-"silent! colo vivichalk
-silent! colo molokai
+"silent! colo molokai
 
 
 set fo+=m   " break lines at multibyte chars (for asian chars)
