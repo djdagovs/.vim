@@ -2,6 +2,17 @@ set shell=/bin/bash\ -li " https://github.com/gmarik/vundle/issues/175
 set nocompatible
 filetype off        " required to use Vundle
 
+
+" Map leader to ','.  The leader character is your own personal modifier key,
+" as g is Vim’s modifier key (when compared to vi). The default leader is \,
+" but this is not located standardly on all keyboards and requires a pinky
+" stretch in any case.
+let mapleader = ","
+" <SPACE> is also a good choice. Note: you can of course have several “
+" personal modifier keys” simply by mapping a sequence, but the leader key is
+" handled more formally. 
+
+
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
@@ -32,7 +43,8 @@ Bundle 'jpalardy/vim-slime'
 Bundle 'kien/ctrlp.vim'
 
 Bundle 'Lokaltog/vim-powerline'
-let g:Powerline_symbols = 'unicode'
+"let g:Powerline_symbols = 'unicode'
+let g:Powerline_symbols = 'fancy'   " requires patched font
 
 Bundle 'mileszs/ack.vim'
 
@@ -147,17 +159,6 @@ set hidden
 " this is just to swap them:
 nnoremap ' `
 nnoremap ` '
-
-
-" Map leader to ','.  The leader character is your own personal modifier key,
-" as g is Vim’s modifier key (when compared to vi). The default leader is \,
-" but this is not located standardly on all keyboards and requires a pinky
-" stretch in any case.
-let mapleader = ","
-" <SPACE> is also a good choice. Note: you can of course have several “
-" personal modifier keys” simply by mapping a sequence, but the leader key is
-" handled more formally. 
-
 
 
 
