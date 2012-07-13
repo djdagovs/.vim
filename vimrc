@@ -123,12 +123,6 @@ set showmatch     " set show matching parenthesis
 syntax enable
 set t_Co=256    " Use 256 colors to display correctly in console
 
-if ($TERM_BG == 'light') 
-    set background=light
-elseif ($TERM_BG == 'dark')
-    set background=dark
-endif
-
 
 "" light colorschemes
 "silent! colo tangolight
@@ -367,7 +361,7 @@ if has("gui_running")
     " Make MacVim looks cool
     if has("gui_macvim")
         "set guifont=Monaco:h12
-        set guifont=Menlo:h14
+        set guifont=Menlo:h12
 
         " Enable meta- kind binding for GUI
         set macmeta
