@@ -122,7 +122,13 @@ set showmatch     " set show matching parenthesis
 
 syntax enable
 set t_Co=256    " Use 256 colors to display correctly in console
-set background=dark
+
+if ($TERM_BG == 'light') 
+    set background=light
+elseif ($TERM_BG == 'dark')
+    set background=dark
+endif
+
 
 "" light colorschemes
 "silent! colo tangolight
