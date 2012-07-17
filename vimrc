@@ -1,4 +1,6 @@
 set shell=/bin/bash\ -li " https://github.com/gmarik/vundle/issues/175
+"set shellcmdflag=-ic       " use an interactive login shell for $PATH
+
 set nocompatible
 filetype off        " required to use Vundle
 
@@ -39,7 +41,10 @@ com TT NERDTree | TagbarToggle
 Bundle 'riobard/scala.vim'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'scrooloose/syntastic'
+
 Bundle 'jpalardy/vim-slime'
+let g:slime_target = "tmux"
+
 Bundle 'kien/ctrlp.vim'
 
 Bundle 'Lokaltog/vim-powerline'
@@ -82,6 +87,11 @@ cmap w!! w !sudo tee % >/dev/null
 " clear search highlights easily
 nmap <silent> ,/ :let @/=""<CR>
 
+" shortcut to rapidly toggle `set list`
+nmap <leader>l :set list!<CR>
+
+" Use these symbols for tab and EOL
+set listchars=tab:▸\ ,eol:¬
 
 " Use Q for formatting the current paragraph (or selection)
 vmap Q gq
@@ -99,14 +109,12 @@ set title                " change the terminal's titl
 " Silent mode. No beeping. 
 set visualbell noerrorbells
 
-
-" Read modelines
+" Read 5 lines as modelines
 set modeline modelines=5
 
 " Hightlight cursor position
 set cursorline  "cursorcolumn
 
-"set laststatus=2 statusline=%F%m%r%h%w%y%=[%l,%c][%P/%L]
 set laststatus=2    " always show the status line
 set statusline=%{fugitive#statusline()}\ %<%F\ %y%h%m%r%=%-14.(%l,%c%V%)\ [%P/%L]
 set titlestring=%<%F
@@ -116,13 +124,12 @@ set autoindent copyindent smartindent
 set fenc=utf8 fencs=utf8,gb2312,big5
 set fileformat=unix fileformats=unix,dos,mac
 
-"set shellcmdflag=-ic       " use an interactive login shell for $PATH
 
 set showmatch     " set show matching parenthesis
 
 syntax enable
 set t_Co=256    " Use 256 colors to display correctly in console
-
+silent! colo solarized
 
 "" light colorschemes
 "silent! colo tangolight
@@ -133,13 +140,13 @@ set t_Co=256    " Use 256 colors to display correctly in console
 "silent! colo vividchalk
 "silent! colo oceandeep
 "silent! colo blackboard2
-silent! colo solarized
 "silent! colo Monokai
 "silent! colo molokai
 
 
 set fo+=m   " break lines at multibyte chars (for asian chars)
 set fo+=M   " do not insert a space before/after multibyte char when joining
+set fo+=n   " format numbered list
 
 " intuitive backspacing in insert mode
 set backspace=indent,eol,start
@@ -168,13 +175,10 @@ set history=1000
 set undolevels=1000      " use many levels of undo
 
 
-
-
 " Set the terminal title.  A running gvim will always have a window title, but
 " when vim is run within an xterm, by default it inherits the terminal’s
 " current title.  This gives e.g. | page.html (~) - VIM |. 
 set title
-
 
 " use CSS stylesheet and XHTML for TOhtml
 let html_use_css = 1
@@ -195,11 +199,7 @@ set wildmode=full
 " /-style searches case-sensitive only if there is a capital letter in the
 " search expression. *-style searches continue to be consistently
 " case-sensitive.
-
-set ignorecase  " ignore case when searching
-set smartcase   " ignore case if search pattern is all lowercase,
-                " case-sensitive otherwise
-
+set ignorecase smartcase
 
 
 " Maintain more context around the cursor.  When the cursor is moved outside
@@ -301,10 +301,10 @@ map <S-Tab> :tabprev<CR>
 
 
 " show softwarpped continuing line
-"set showbreak=…    " UTF8 causing problem in Linux
+set showbreak=…
 "set showbreak=...
 "set showbreak=>\ "
-set showbreak=-
+"set showbreak=-
 
 
 
@@ -317,8 +317,6 @@ cnoremap <C-F> <Right>
 
 
 
-" Vim-slime
-let g:slime_target = "tmux"
 
 
 " Tabularize plugin: align equal signs and friends
@@ -379,5 +377,3 @@ if has("gui_running")
         endif
     endif
 endif
-
-
