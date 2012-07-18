@@ -87,11 +87,11 @@ cmap w!! w !sudo tee % >/dev/null
 " clear search highlights easily
 nmap <silent> ,/ :let @/=""<CR>
 
-" shortcut to rapidly toggle `set list`
+" Toggle `set list` to show invisible chars
 nmap <leader>l :set list!<CR>
 
-" Use these symbols for tab and EOL
-set listchars=tab:▸\ ,eol:¬
+" Use these symbols for invisible chars
+set listchars=tab:⇥\ ,trail:␣,eol:↩,nbsp:␣,extends:…,precedes:…
 
 " Use Q for formatting the current paragraph (or selection)
 vmap Q gq
